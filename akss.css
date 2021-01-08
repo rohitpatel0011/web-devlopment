@@ -1,8 +1,19 @@
-h1 {
-    color: chocolate;
+.heading {
+    color: hsl(261, 96%, 41%);
+    text-align: center;
 }
 
-a {
-    color: darkslategrey;
-    background-color: honeydew;
+.anchor {
+    color: hsl(212, 100%, 55%);
+    background-color: #000000;
+}
+
+.para {
+    color: white;
+    background-color: black;
+    width: 200px;
+    background-attachment: scroll;
+    position: scroll;
+    float: right;
+    margin-top: -200px;
 }
