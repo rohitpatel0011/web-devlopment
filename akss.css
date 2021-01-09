@@ -1,5 +1,9 @@
+#body {
+    background-color: hsla(blue, saturation, lightness, alpha)
+}
+
 .heading {
-    color: hsl(261, 96%, 41%);
+    color: yellowgreen;
     text-align: center;
 }
 
@@ -15,5 +19,12 @@
     background-attachment: scroll;
     position: scroll;
     float: right;
-    margin-top: -200px;
+    margin-top: -300px
+}
+
+.fpara {
+    color: red;
+    text-align: center;
+    background-color: rgb(66, 66, 4);
+    width: 200px;
 }
