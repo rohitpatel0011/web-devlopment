@@ -1,5 +1,5 @@
-#body {
-    background-color: hsla(blue, saturation, lightness, alpha)
+body {
+    background-color: darkslategrey;
 }
 
 .heading {
