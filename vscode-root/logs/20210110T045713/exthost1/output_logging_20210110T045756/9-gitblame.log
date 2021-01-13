@@ -1,3 +1,0 @@
-[ 04:57:56 | command ] git rev-parse --git-dir
-[ 04:57:56 | command ] git blame --incremental -- /home/nostalgia/golu/mypractic/akss.css
-[ 04:57:56 | info ] Blamed "/home/nostalgia/golu/mypractic/akss.css": 4 commits

@@ -1,9 +1,0 @@
-[2021-01-10 04:57:19.099] [renderer1] [error] An unknown error occurred. Please consult the log for more details.: Error: 
-    at /root/.vscode/extensions/kiteco.kite-0.135.0/node_modules/kite-api/node_modules/kite-connector/lib/support/linux.js:113:18
-    at suppressedCallback (fs.js:202:5)
-    at FSReqCallback.oncomplete (fs.js:146:23)
-[2021-01-10 04:57:49.620] [renderer1] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/nostalgia/golu/mypractic/.vscode'
-[2021-01-10 04:57:54.335] [renderer1] [error] An unknown error occurred. Please consult the log for more details.: Error: 
-    at /root/.vscode/extensions/kiteco.kite-0.135.0/node_modules/kite-api/node_modules/kite-connector/lib/support/linux.js:113:18
-    at suppressedCallback (fs.js:202:5)
-    at FSReqCallback.oncomplete (fs.js:146:23)
