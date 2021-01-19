@@ -4,37 +4,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>styling in text format</title>
+    <title>margin and padding in css</title>
     <style>
-        h1 {
-            text-align: center;
-            text-transform: uppercase;
-            /*all text are upper case*/
-            text-decoration: underline overline;
-            text-shadow: 5px 10px 5px black;
-            /*  ------offset-x| offset-y | blur-radius | color
-            3d effect in text format*/
+        .fdiv .sdiv .tdiv {
+            height: 200px;
+            width: 200px;
         }
         
-        .para {
-            color: hsl(54, 70%, 29%);
-            line-height: 30px;
-            /*spacing in text formats in vertically*/
-            font-weight: 700;
-            text-indent: 200px;
-            /* spacing text from initial intent */
-            word-spacing: 10px;
-            /*spacing between two words*/
-            text-transform: capitalize;
+        .fdiv {
+            margin: 200px;
+            background-color: cornflowerblue;
+        }
+        
+        .sdiv {
+            margin: 200px;
+            background-color: coral;
+        }
+        
+        .tdiv {
+            margin: 200px;
+            background-color: cornflowerblue;
         }
     </style>
 </head>
 
 <body>
-    <h1 class="heading">Styling Text in CSS</h1>
-    <p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est tenetur suscipit repellendus nisi modi excepturi aperiam itaque dolores, eius nulla, repellat beatae aliquid esse? Fuga placeat dolorum quas eveniet fugiat? Lorem ipsum dolor sit amet consectetur
-        adipisicing elit. Eos distinctio voluptate dolore numquam. Ab, quos quasi? Sint officiis reiciendis harum, voluptate sequi accusamus doloribus doloremque at excepturi tempore repellendus dignissimos.loren</p>
-
+    <div class="parentdiv">
+        <div class="fdiv"> first div</div>
+        <div class="sdiv"> second div</div>
+        <div class="tdiv"> third div</div>
+    </div>
 </body>
+
+</html>
 
 </html>
