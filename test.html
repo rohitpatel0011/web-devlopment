@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Potta+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap" rel="stylesheet">
+    <title>practic login page
+    </title>
+    <style>
+        .parentdiv {
+            background-color: hsla(185, 42%, 37%, 0.856);
+            height: 700px;
+            width: 1400px;
+        }
+        
+        h1 {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+            font-family: Homemade Apple;
+            font-weight: 500;
+        }
+        
+        .fpdiv {
+            background-color: hsla(185, 42%, 37%, 0.856);
+            height: 500px;
+            position: relative;
+            width: 400px;
+            left: 480px;
+            top: 50px;
+            border: 0px solid rgb(0, 0, 0);
+            box-shadow: 30px 30px 15px #000000ce;
+        }
+        
+        .namediv {
+            position: relative;
+            left: 10px;
+            top: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <form method="POST">
+        <div class="parentdiv">
+            <h1>Login &nbsp Page</h1>
+            <div class="fpdiv">
+                <div class="namediv">
+                    <label>Enter your name:</label><input type="text" name="name" id="name" required>
+                </div>
+                <div class="emaildiv">
+                    <label>Enter your email:</label><input type="email" name="email" id="email" required>
+                </div>
+                <div class="passworddiv"></div>
+
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>
