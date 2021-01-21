@@ -12,20 +12,13 @@
     </title>
     <style>
         .parentdiv {
-            background-color: hsla(185, 42%, 37%, 0.856);
+            background-color: hsla(0, 0%, 100%, 0.856);
             height: 700px;
             width: 1400px;
         }
         
-        h1 {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            text-align: center;
-            font-family: Homemade Apple;
-            font-weight: 500;
-        }
-        
         .fpdiv {
-            background-color: hsla(185, 42%, 37%, 0.856);
+            background-color: rgba(134, 55, 55, 0.856);
             height: 500px;
             position: relative;
             width: 400px;
@@ -33,12 +26,36 @@
             top: 50px;
             border: 0px solid rgb(0, 0, 0);
             box-shadow: 30px 30px 15px #000000ce;
+            border-bottom-right-radius: 20px;
+            border-bottom-left-radius: 50px;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 50px;
         }
         
         .namediv {
-            position: relative;
-            left: 10px;
-            top: 50px;
+            background-color: #fff;
+            height: 60px;
+            width: 300px;
+            position: absolute;
+            left: 50px;
+            top: 100px;
+            border-bottom-right-radius: 10px;
+            border-bottom-left-radius: 25px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 25px;
+        }
+        
+        .emaildiv {
+            background-color: #fff;
+            height: 60px;
+            width: 300px;
+            position: absolute;
+            left: 50px;
+            top: 200px;
+            border-bottom-right-radius: 10px;
+            border-bottom-left-radius: 25px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 25px;
         }
     </style>
 </head>
@@ -46,15 +63,14 @@
 <body>
     <form method="POST">
         <div class="parentdiv">
-            <h1>Login &nbsp Page</h1>
             <div class="fpdiv">
                 <div class="namediv">
-                    <label>Enter your name:</label><input type="text" name="name" id="name" required>
+
                 </div>
-                <div class="emaildiv">
-                    <label>Enter your email:</label><input type="email" name="email" id="email" required>
-                </div>
+                <div class="emaildiv"></div>
+
                 <div class="passworddiv"></div>
+                <div class="botton"></div>
 
             </div>
         </div>
