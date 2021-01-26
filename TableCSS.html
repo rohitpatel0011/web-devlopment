@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>styling list in css</title>
+</head>
+<style>
+    body {
+        margin: 50px;
+    }
+    
+    th,
+    td,
+    table,
+    tr {
+        border: 2px solid black;
+        /*this is spratate border*/
+        border-collapse: collapse;
+        /*boder is collapse ecah other*/
+        padding: 30px;
+        /*padding between each other block*/
+    }
+    
+    th {
+        background-color: aqua;
+        font-weight: 900;
+    }
+    
+    td {
+        background-color: brown;
+        font-weight: 700;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+</style>
+
+<body>
+    <table>
+        <tr>
+            <th id="name">Name</th>
+            <th id="rollno">Roll No.</th>
+            <th id="subject">Subject</th>
+            <th id="marks">Marks</th>
+            <th id="grade">Grade</th>
+        </tr>
+        <tr>
+            <td>Rohit patel</td>
+            <td>224</td>
+            <td>Pyhton</td>
+            <td>400</td>
+            <td>A1</td>
+        </tr>
+        <tr>
+            <td>Abhay arya</td>
+            <td>349</td>
+            <td>java</td>
+            <td>840</td>
+            <td>A1</td>
+        </tr>
+        <tr>
+            <td>Deepak kumar</td>
+            <td>348</td>
+            <td>css</td>
+            <td>494</td>
+            <td>A1</td>
+        </tr>
+        <tr>
+            <td>Aman kumar</td>
+            <td>348</td>
+            <td>javascprit</td>
+            <td>494</td>
+            <td>A1</td>
+        </tr>
+    </table>
+</body>
+
+</html>
