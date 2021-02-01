@@ -1,0 +1,47 @@
+.parentdiv {
+    padding: 100px;
+    background-color: dimgray;
+    padding-top: 0%;
+    height: 1000px;
+    width: 600px;
+    margin-left: 200px;
+}
+
+* {
+    border-radius: 10px;
+}
+
+body {
+    background-color: darkgray;
+    font-family: monospace;
+}
+
+.heading {
+    text-align: center;
+    background-color: darkgreen;
+    color: darkkhaki;
+    margin: 0%;
+    height: 50px;
+    padding: 10px;
+}
+
+h2 {
+    margin: 0%;
+    background-color: darkslategrey;
+    padding: 20px;
+    font-size: 20px;
+}
+
+fieldset {
+    background-color: #ad9d9d;
+}
+
+input {
+    height: 30px;
+    border: none;
+}
+
+p {
+    font-size: 15px;
+    background-color: cornsilk;
+}
