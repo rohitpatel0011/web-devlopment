@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/paymentform1.css">
+    <title>Payment form styling</title>
+    <style>
+
+    </style>
+</head>
+<form method="POST">
+    <div class="parentdiv">
+        <h1 class="heading">Payment Form</h1>
+
+        <h2>
+            User Information
+        </h2>
+
+        <p class="namepara">
+            Name : <input type="text" class="nameinputbox" id="name" required placeholder="Enter your name">
+        </p>
+
+        <fieldset class="fieldset">
+            <legend class="legend">Gender</legend>
+            <input type="radio" name="gender" value="male"> Male
+            <input type="radio" name="gender" value="female"> Female
+
+        </fieldset>
+        <p>Address
+            <textarea name="address" id="useraddress" cols="70" rows="5">
+    
+        </textarea>
+            <p>Email :
+                <input class="emailinputbox" type="email" name="useremail" required placeholder="example@gmail.com"></p>
+            <p>Pincode :<input type="pincode" name="userpasswd" required placeholder="123456"></p>
+            <h2>
+                Personal Information
+            </h2>
+            <p>Card Type :
+                <select class="select" name="card_type" id="card_type">
+                    <option value="--Select Card Type--">--Select-Card--</option>
+                      <option value="MasterCard">MasterCard</option>
+                        <option value="Visa">Visa</option>
+                          <option value="Rupay">Rupay</option>
+                          
+                </select>
+            </p>
+            <p>
+                Card Number :
+                <input class="cardnoinputbox" type="text" name="cardnumber" placeholder="1111-2222-3333-4444" required </p>
+                <p>
+                    Expire Date :
+                    <input class="expiredatebox" type="date" name="expiredate" required>
+                </p>
+                <p> cvv :<input class="cvvbox" type="password" name="cardcvv" placeholder="123" required>
+
+
+</form>
+<input class="paybotton" type="submit" value="Pay Now">_
+</div>
+
+<body>
+
+</body>
+
+</html>
