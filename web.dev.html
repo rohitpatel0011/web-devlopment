@@ -21,7 +21,7 @@
             background: linear-gradient(90deg, rgba(0, 172, 200, 1) 2%, rgba(173, 187, 27, 1) 46%, rgba(0, 212, 255, 1) 100%);
             padding: 30px;
             border-radius: 30px;
-            border: solid white 2px;
+            box-shadow: 5px 10px 8px hsl(0, 0%, 0%);
         }
         
         input {
@@ -40,23 +40,50 @@
             color: floralwhite;
             margin-left: 120px;
         }
+        
+        .navbar,
+        a {
+            text-decoration: none;
+            color: aliceblue;
+            background-color: black;
+            padding: 30px;
+        }
+        /* a { text-decoration: none; color: black; border: black;*/
+        
+        a:hover {
+            background-color: rgba(9, 73, 121, 0.8911939775910365);
+        }
     </style>
 </head>
 
 <body>
+    <div class="navbar">
+        <nav>
+
+
+            <a href="#">HOME</a>
+            <a href="#">ABOUT</a>
+            <a href="#">CONTACT</a>
+            <a href="#">HELP</a>
+            <a href="#">LOGIN/SIGNUP</a>
+
+
+        </nav>
     </div>
+
     <div class="parentdiv">
+
         <div class="fdiv">
             <div class="nameinput">
                 <p>Name : <input type="text" placeholder="Name" required></p>
             </div>
             <div class="emailinput">
-                <p> Email : <input type="text" placeholder="Name" required></p>
+                <p> Email : <input type="text" placeholder="Email" required></p>
             </div>
-            <div class="submit" id="submit"> <input type="submit" value="submit" </div>
-            </div>
-
+            <div class="submit" id="submit"> <input type="submit" value="submit"> </div>
         </div>
+
+    </div>
 </body>
 
 </html>
