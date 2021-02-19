@@ -3,146 +3,34 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        html {}
-        
-        body {
-            margin: 0%;
-            font-family: monospace;
-            background: linear-gradient(90deg, rgba(0, 172, 200, 0.8015581232492998) 2%, rgba(39, 175, 161, 0.7903536414565826) 20%, rgba(187, 27, 27, 0.7763480392156863) 50%, rgba(255, 209, 0, 0.87718837535014) 100%);
-            background-color: #85FFBD;
-            background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+        @keyframes changecolor {
+            form {
+                background-color: blueviolet;
+            }
+            to {
+                background-color: red;
+            }
         }
         
-        .parentdiv {}
-        
-        .parentdiv {
-            width: 30%;
-            height: 350px;
-            margin-left: 430px;
-            margin-top: 100px;
-            background: rgb(0, 172, 200);
-            background: linear-gradient(90deg, rgba(0, 172, 200, 1) 2%, rgba(173, 187, 27, 1) 46%, rgba(0, 212, 255, 1) 100%);
-            padding: 30px;
-            background-color: #4158D0;
-            background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
-            border-radius: 30px;
-            box-shadow: 5px 10px 8px hsl(0, 0%, 0%);
-        }
-        
-        input {
-            width: 70%;
-            height: 50px;
-            margin: 20px;
-            margin-top: 20px;
-            filter: blur(3px);
-            border: black 2px solid;
-        }
-        
-        p {
-            color: rgb(0, 0, 0);
-        }
-        
-        #submit {
-            width: 30%;
-            color: floralwhite;
-            margin-left: 120px;
-        }
-        
-        .navbar {
-            background-color: #85FFBD;
-            width: 100px;
-            display: inline;
-            background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
-            background-color: cadetblue;
-            border: grey soild 1px;
-        }
-        
-        .navbar a {
-            text-decoration: none;
-            color: #0a0b0c;
-            padding: 30px;
-            height: 50px;
-            background-color: khaki;
-        }
-        /* a { text-decoration: none; color: black; border: black;*/
-        
-        a:hover {
-            background-color: rgba(9, 73, 121, 0.8911939775910365);
-        }
-        
-        a {
-            position: relative;
-            right: 10px;
-        }
-        
-        .content {
-            height: 500px;
-            width: 20%;
-            position: absolute;
-            left: 20px;
-            border: 1px solid #000000;
-            background-color: rgba(128, 128, 128, 0.603);
-            padding: 10px;
-            margin-top: 10px;
-            overflow: hidden;
-            filter: blur(4px);
-        }
-        
-        .scontent {
-            height: 300px;
-            width: 20%;
-            position: absolute;
-            right: 20px;
-            border: 1px solid #000000;
-            background-color: rgba(128, 128, 128, 0.603);
-            padding: 10px;
-            margin-top: 10px;
-            overflow: hidden;
+        .animated {
+            background-color: blueviolet;
+            height: 200px;
+            width: 25%;
+            animation-name: changecolor;
+            animation-duration: 2s;
         }
     </style>
 </head>
 
 <body>
-    <div class="navbar">
-        <nav>
-
-
-            <a href="#">HOME</a>
-            <a href="#">ABOUT</a>
-            <a href="#">CONTACT</a>
-            <a href="#">HELP</a>
-            <a href="#">LOGIN/SIGNUP</a>
-
-
-        </nav>
-    </div>
-    <div class="content">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem laborum eius aliquam facilis quae eveniet maiores illo, consequuntur a perspiciatis sit magni obcaecati dicta culpa voluptatibus, non veritatis sed dolorem vero laboriosam vitae ratione provident
-        magnam distinctio optio maxime temporibus voluptas? Autem beatae modi nobis, iure rerum, impedit, saepe nihil commodi aspernatur expedita aliquid! Optio hic voluptatibus minus culpa.
-    </div>
-    <div class="scontent">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint, mollitia! lorem 100 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum asperiores eum, at rerum est, accusamus eligendi enim voluptas laboriosam molestias optio saepe ratione.
-        Officiis temporibus ipsum accusamus repellat consectetur quia aliquid vel ratione modi reprehenderit cum tempore blanditiis, possimus architecto quod molestiae sapiente provident, inventore praesentium dolorem velit! Dignissimos blanditiis facilis
-        assumenda exercitationem debitis. Labore quam soluta iste necessitatibus doloribus voluptatem quisquam eveniet quod eos. Odio ullam nostrum laudantium, molestias voluptate libero magnam necessitatibus atque alias natus beatae architecto dolores,
-        quae inventore delectus qui tempora, voluptates nam distinctio aspernatur ex! Ullam temporibus, hic nesciunt nihil suscipit aliquid dolore libero ea.
-    </div>
-
-    <div class="parentdiv">
-
-        <div class="fdiv">
-            <div class="nameinput">
-                <p>Name : <input type="text" placeholder="Name" required></p>
-            </div>
-            <div class="emailinput">
-                <p> Email : <input type="text" placeholder="Email" required></p>
-            </div>
-            <div class="submit" id="submit"> <input type="submit" value="submit"> </div>
-        </div>
+    <div class="animated">
 
     </div>
+
 </body>
 
 </html>
