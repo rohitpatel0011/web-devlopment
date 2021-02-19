@@ -8,18 +8,42 @@ body {
     background: -webkit-linear-gradient(to right, #3a7bd5, #00d2ff);
     /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #3a7bd5, #00d2ff);
+    opacity: 0.6;
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+a {
+    text-decoration: none;
+    color: aliceblue;
+    margin: 40px auto;
+    /*  background: -webkit-linear-gradient(to right, #3a7bd5, #00d2ff);
+    background: linear-gradient(to right, #3a7bd5, #00d2ff);
+    padding: 30px;*/
+}
+
+nav {
+    background: -webkit-linear-gradient(to right, #3a7bd5, #00d2ff);
+    background: linear-gradient(to right, #3a7bd5, #00d2ff);
+    height: 60px;
+    padding: 20px
+}
+
+
+/* a { text-decoration: none; color: black; border: black;*/
+
+a:hover {
+    background-color: rgba(9, 73, 121, 0.8911939775910365);
+}
+
 .boxmodel {
-    background-color: #00d0ff5e;
+    background-color: #0e1213a4;
     height: 450px;
     width: 36%;
     border-radius: 40px;
     box-shadow: black 10px 5px 8px;
     position: absolute;
     left: 50px;
-    top: 60px;
+    top: 100px;
 }
 
 p {
