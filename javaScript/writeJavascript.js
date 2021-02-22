@@ -1,0 +1,1 @@
+document.write("hey how are you");

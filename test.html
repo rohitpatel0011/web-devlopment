@@ -7,21 +7,74 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        @keyframes changecolor {
+        /* @keyframes changecolor {
             form {
                 background-color: blueviolet;
             }
             to {
                 background-color: red;
             }
+         } */
+        
+        @keyframes changecolor {
+            0% {
+                background-color: blue;
+            }
+            25% {
+                background-color: crimson;
+            }
+            50% {
+                width: 45%;
+            }
+            75% {
+                background-color: #d89e00;
+            }
+            100% {
+                background-color: darkturquoise;
+            }
         }
         
         .animated {
-            background-color: blueviolet;
-            height: 200px;
+            background-color: rgb(53, 44, 63);
+            height: 50px;
             width: 25%;
             animation-name: changecolor;
             animation-duration: 2s;
+            /* animation-delay: 2s; */
+            animation-iteration-count: 3;
+            /*3 is the value of , how many times to animate this element*/
+            margin: 10px 10px;
+            border-radius: 20px;
+        }
+        
+        .animated2 {
+            background-color: rgb(53, 44, 63);
+            height: 10x0px;
+            width: 25%;
+            animation-name: changecolor;
+            animation-duration: 1s;
+            /* animation-delay: 2s; */
+            animation-iteration-count: infinite;
+            /*3 is the value of , how many times to animate this element*/
+            margin: 10px 10px;
+            border-radius: 20px;
+            font-weight: 20px;
+            font-family: fantasy;
+            padding: 2px 5px 2px 5px;
+            text-overflow: none;
+        }
+        
+        .animated3 {
+            background-color: rgb(53, 44, 63);
+            height: 50px;
+            width: 25%;
+            animation-name: changecolor;
+            animation-duration: 2s;
+            /* animation-delay: 2s; */
+            animation-iteration-count: 3;
+            /*3 is the value of , how many times to animate this element*/
+            margin: 10px 10px;
+            border-radius: 20px;
         }
     </style>
 </head>
@@ -30,7 +83,10 @@
     <div class="animated">
 
     </div>
-
+    <div class="animated2">
+        <h2>Lorem ipsum dolor sit amet consectnim, commodi?</h2>
+    </div>
+    <div class="animated3"></div>
 </body>
 
 </html>
