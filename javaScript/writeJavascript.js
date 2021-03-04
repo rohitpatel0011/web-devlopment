@@ -1,38 +1,38 @@
-// var name = rohit
-// var lastname = patel
-// var temp = `${name} "is a good boy" ${lastname}` // var string = "this";
-// var string = 'thi"s';
-// var name = 'Rohit';
-// var lastname = 'patel';
-// var message = 'rohit is a good boy';
-// var temp = `${name} is a 'nice' person "and" his full name is  ${lastname}`;
-// console.log(temp);
-// var len = name.length;
-// console.log(`Length of name is ${len}`)
+var name = rohit
+var lastname = patel
+var temp = `${name} "is a good boy" ${lastname}` // var string = "this";
+var string = 'thi"s';
+var name = 'Rohit';
+var lastname = 'patel';
+var message = 'rohit is a good boy';
+var temp = `${name} is a 'nice' person "and" his full name is  ${lastname}`;
+console.log(temp);
+var len = name.length;
+console.log(`Length of name is ${len}`)
 
-// console.log("Hello \\nworld\nrohit\tand");
-// var y = new String("this");
-// console.log(y);
-// document.getElementById('content').innerHTML = '<h3>this is an h3 heading</h3>'
-// document.getElementById('name').innerHTML = '<h1>rohit patel </h1>'
+console.log("Hello \\nworld\nrohit\tand");
+var y = new String("this");
+console.log(y);
+document.getElementById('content').innerHTML = '<h3>this is an h3 heading</h3>'
+document.getElementById('name').innerHTML = '<h1>rohit patel </h1>'
 
 
-// //logical operator
-// var name = "rohit";
-// var gender = "male";
-// if (gender == "male") {
-//     console.log("hello mr." + name);
-// } else {
-//     console.log("hello miss." +
-//         name);
-// }
+//logical operator
+var name = "rohit";
+var gender = "male";
+if (gender == "male") {
+    console.log("hello mr." + name);
+} else {
+    console.log("hello miss." +
+        name);
+}
 
-// var marks = 30
-// if (marks >= 70 && marks <= 100) {
-//     console.log("yes you are in merit");
-// } else {
-//     console.log("you are not in merit list");
-// }
+var marks = 30
+if (marks >= 70 && marks <= 100) {
+    console.log("yes you are in merit");
+} else {
+    console.log("you are not in merit list");
+}
 
 
 //frist "if"  and "if else " program
