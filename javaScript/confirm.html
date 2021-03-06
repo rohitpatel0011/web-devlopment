@@ -5,18 +5,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>confirm box with alert popUP </title>
+    <title>prompt box java script</title>
+
 </head>
 
 <body>
     <script>
-        var a = confirm("do you agree");
-        if (a) {
-            alert("yes you are selected")
+        var per = prompt //popup input feild by user//
+            ("enter your percentage : ")
+        if (per >= 60 && per < 80) {
+            document.write("you in 1st div")
+        } else if (per >= 45 && per < 60) {
+            document.write("you in 2st div")
+        } else if (per >= 34 && per < 80) {
+            document.write("you in 3st div")
+        } else if (per < 33) {
+            document.write("you are fail")
         } else {
-            alert("you are not selected")
+            document.write("please enter valid number")
         }
     </script>
+
 
 </body>
 
