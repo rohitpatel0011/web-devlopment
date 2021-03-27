@@ -17,11 +17,27 @@
         var a = 10;<br> do { document.write (a * 2 + " br tag")<br> a++//increment or decrement <br> }while (a
         <=1 0); </p>
             <script>
-                var a = 1
+                // var a = 1
+                // do {
+                //     document.write(a * 2 + "<br>");
+                //     a++;
+                // } while (a <= 10);
+                var a = 10;
                 do {
-                    document.write(a * 2 + "<br>");
-                    a++;
-                } while (a <= 10);
+                    document.write("<h2>" + " hello Rohit" +
+                        "</h2>")
+                    a = a + 1;
+                } while (a <= 20); //this conditions is true 
+                /*this loop is run 11 times because do
+                                 loop run one time and then after checking while condition and run each tme */
+                var a = 10;
+                do {
+                    document.write("<h2>" + " hello Rohit" +
+                        "</h2>")
+                    a = a + 1;
+                } while (a <= 9); //this conditions is false
+                /*this loop run 1 time because while loop is false . when while loop is false then loop
+                is stop and out */
             </script>
 </body>
 

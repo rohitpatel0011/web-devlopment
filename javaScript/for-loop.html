@@ -5,24 +5,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>for loop in javascprit
-    </title>
+    <title>prompt box java script</title>
+
 </head>
 
 <body>
     <script>
-        // for (var a = 0; a < 11; a++) {
-        //     document.write(a + "x 3 =" + a * 3 + "<br>")
-        // }
-        // // table of 3 
-        // for (var a = 0; a <= 10; a++) {
-        //     document.write(a_ + " x 3 =" + a * 3 + "< br> ");
-        // }
-        // //10 to 1 opposite counting 
-        // for (var i = 10; i > 0; i--) {
-        //     document.write(i + "<br>")
-        // }
+        var persent = prompt //popup input feild by user//
+            ("enter your percentage : ");
+        if (persent >= 80 && persent <= 100) {
+            document.write("<h1> you are in merit </h1>");
+        } else if (persent >= 60 && persent < 79) {
+            document.write("<h1>you in 1st div <\h1>");
+        } else if (persent >= 45 && persent < 59) {
+            document.write("<h1>you in 2st div </h1>");
+        } else if (persent >= 33 && persent < 44) {
+            document.write("<h1> you in 3st div </h1>");
+        } else if (persent <= 32) {
+            document.write("<h1>you are fail</h1>");
+        } else {
+            document.write("<h1> please enter valid number</h1>");
+        }
     </script>
+
+
 </body>
 
 </html>
