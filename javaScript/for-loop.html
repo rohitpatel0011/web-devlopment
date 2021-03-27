@@ -5,28 +5,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>prompt box java script</title>
+    <title> for loop in javaScript</title>
 
 </head>
 
 <body>
     <script>
-        var present = prompt //popup input field by user//
-            ("enter your percentage : ");
-        if (present >= 80 && present <= 100) {
-            document.write("<h1> you are in merit </h1>");
-        } else if (present >= 60 && present < 79) {
-            document.write("<h1>you in 1st div <\h1>");
-        } else if (present >= 45 && present < 59) {
-            document.write("<h1>you in 2st div </h1>");
-        } else if (present >= 33 && present < 44) {
-            document.write("<h1> you in 3st div </h1>");
-        } else if (present <= 32) {
-            document.write("<h1>you are fail</h1>");
-        } else {
-            document.write("<h1> please enter valid number</h1>");
+        /*if condition(< , > , <= , >=, == ) is true then code will be executed 
+                                                                                                                                        else condition (< , > , <= , >=, == ) is false the code is exit and out of loop*/
+        for (a = 1; a <= 10; a++) {
+            document.write("<h1>" + "Hello Mr. Rohit Patel" + "</h1>");
+        }
+        //---------------------------------------
+        for (i = 10; i >= 1; i--) {
+            document.write(
+                i + "<br>"
+            )
+        }
+        //-----------table of 3 using for loop----------------------
+        for (a = 1; a <= 10; a++) {
+            // document.write(a * 3 + " <br>")
+            document.write(a + "x 3 = " + a * 3 + "<br>")
         }
     </script>
+
 
 
 </body>
