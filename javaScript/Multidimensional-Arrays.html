@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multidimenstional arrays</title>
+</head>
+
+<body>
+    <script>
+        // let ary = [
+        //     ["rohit", 20, "male", "bca"],
+        //     ["sapna", 19, "female", "b.com"],
+        //     ["aman", 21, "male", "mca"],
+        //     ["tom", 34, "male", "bba"]
+
+        // ];
+        // for (let a = 0; a <= 2; a++) {
+        //     console.log(ary[a] + "<br>");
+        // }
+        // for (let a = 0; a <= 3; a++) {
+        //     for (let b = 0; b <= 3; b++) {
+        //         document.write(ary[a][b] + " ");
+        //     }
+        //     document.write("<br>");
+        // }
+        //---------------------------table form show data--------
+        let ary = [
+            ["rohit", 20, "male", "bca"],
+            ["sapna", 19, "female", "b.com"],
+            ["aman", 21, "male", "mca"]
+        ];
+        document.write("<table boder = '1px' cellspacing = '0'>");
+        for (var a = 0; a < ary.length; a++) {
+            document.write("<tr>");
+            for (var b = 0; b < ary.length; b++) {
+                document.write("<td>" + ary[a][b] + "</td>");
+            }
+            document.write("</tr>");
+        }
+        document.write("</table>");
+    </script>
+</body>
+
+</html>
