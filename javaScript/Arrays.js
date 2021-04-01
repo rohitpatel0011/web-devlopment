@@ -1,8 +1,9 @@
 let a = [10, 20, 30, 40];
 console.log(a);
-let arr = ["39", 40, "golu", 65] //index of these arry is [0] , [1], [2], [3] 
+let arr = ["39", 40, "golu", 65] //index of these arry is ([0]is index of "39") , [1], [2], [3] 
 console.log(a[2]); //2 is a index of golu
 console.log(arr[2]); //1 is a index of 20
+<<<<<<< HEAD
 
 //--------------------------------
 var ary = [10, 29, 39, 49, 38];
@@ -22,3 +23,5 @@ for (let n = 0; n <= 4; n++) {
 console.log("the total sum of all array is " + sum);
 
 //----------------------------
+=======
+>>>>>>> fbf2303baac265083987d6956d886eaedb2c2cb3
