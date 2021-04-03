@@ -5,42 +5,53 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Multidimenstional arrays</title>
+    <title>multidimensional arrays</title>
 </head>
 
 <body>
     <script>
+        // //---------------------------table form show data--------
         // let ary = [
         //     ["rohit", 20, "male", "bca"],
         //     ["sapna", 19, "female", "b.com"],
-        //     ["aman", 21, "male", "mca"],
-        //     ["tom", 34, "male", "bba"]
-
+        //     ["aman", 21, "male", "mca"]
         // ];
-        // for (let a = 0; a <= 2; a++) {
-        //     console.log(ary[a] + "<br>");
-        // }
-        // for (let a = 0; a <= 3; a++) {
-        //     for (let b = 0; b <= 3; b++) {
-        //         document.write(ary[a][b] + " ");
+        // document.write(ary[1]);
+        // document.write(ary[1][2]); //its means  in 1 index of 2nd  value (inner-loop) output is female
+        // /*ary[1] is outer loop(sapna) of multidimensional arry 
+        // and ary[3] is inner loop(female) of multidimensional arry */
+        // document.write("<table boder= '1px' cellspacing = '0'>");
+        // for (var a = 0; a < ary.length; a++) {
+        //     document.write("<tr>");
+        //     for (var b = 0; b < ary.length; b++) {
+        //         document.write("<td>" + ary[a][b] + "</td>");
         //     }
-        //     document.write("<br>");
+        //     document.write("</tr>");
         // }
-        //---------------------------table form show data--------
-        let ary = [
-            ["rohit", 20, "male", "bca"],
-            ["sapna", 19, "female", "b.com"],
-            ["aman", 21, "male", "mca"]
-        ];
-        document.write("<table boder= '1px' cellspacing = '0'>");
-        for (var a = 0; a < ary.length; a++) {
-            document.write("<tr>");
-            for (var b = 0; b < ary.length; b++) {
-                document.write("<td>" + ary[a][b] + "</td>");
-            }
-            document.write("</tr>");
-        }
-        document.write("</table>");
+        // document.write("</table>");
+
+        //     //-----array method new -----------------
+
+
+        //     var ary = new Array(3); //fix the value of this array
+        //     for (a = 0; a < ary.length; a++) { //ary.length is ary = (3) 
+        //         ary[a] = prompt("input some text :"); //input from user in prompt box
+        //     }
+        //     document.write(ary);
+        //
+        ////--------------example to print each string value with functions--------------
+        // function printArray(a ) {
+        //     var len = a.length,
+        //         i = 0;
+        //     if (len == 0)
+        //         console.log("Empty Array");
+        //     else {
+        //         do {
+        //             console.log(a[i]);
+        //         } while (++i < len);
+        //     }
+        // }
+        // printArray("rohit");
     </script>
 </body>
 
