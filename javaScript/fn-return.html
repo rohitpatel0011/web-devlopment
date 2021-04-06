@@ -10,12 +10,22 @@
 
 <body>
     <script>
-        function fullname(firstname, middlename, lastname, age) {
-            var a = firstname + " " + middlename + " " + lastname + " " + age;
+        // function fullname(firstname, middlename, lastname, age) {
+        //     var a = firstname + " " + middlename + " " + lastname + " " + age;
+        //     return a;
+        // }
+        // var name = fullname("golu", "kumar", "patel", 46);
+        // document.write(name);
+        function lessby20_others(x, y, z) {
+            var a = (x >= 20 && (x < y || x < z)) ||
+                (y >= 20 && (y < x || y < z)) ||
+                (z >= 20 && (z < y || z < x));
             return a;
         }
-        var name = fullname("golu", "kumar", "patel", 46);
-        document.write(name);
+        console.log(lessby20_others(10, 45, 10));
+        console.log(lessby20_others(23, 23, 10));
+        console.log(lessby20_others(21, 66, 75));
+        console.log(lessby20_others(26, 66, 75));
     </script>
 
 </body>

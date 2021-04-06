@@ -12,13 +12,13 @@ multidimensional array */
 // console.log(names[3]); //3 is a index of "rahul"colum 
 // console.log(names[0][1]); //0 is index of golu(inner row) and 1 is index of 34(outer colum)
 //----------------------------------
-// let ary = [
-//     ["rohit", 20, "male", "bca"],
-//     ["sapna", 19, "female", "b.com"],
-//     ["aman", 21, "male", "mca"]
+let ary = [
+    ["rohit", 20, "male", "bca"],
+    ["sapna", 19, "female", "b.com"],
+    ["aman", 21, "male", "mca"]
 
-// ];
-// console.log(ary[1]);
+];
+console.log(ary[1]);
 // for (let a = 0; a <= 2; a++) {
 //     console.log(ary[a]);
 // }

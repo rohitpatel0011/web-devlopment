@@ -12,25 +12,25 @@
 
     <script>
         //   ---------------------------table form show data--------
-        // let ary = [
-        //     ["rohit", 20, "male", "bca"],
-        //     ["sapna", 19, "female", "b.com"],
-        //     ["aman", 21, "male", "mca"],
-        //     ["rakesh", 27, "male", "b,tech"]
-        // ];
+        let ary = [
+            ["rohit", 20, "male", "bca"],
+            ["sapna", 19, "female", "b.com"],
+            ["aman", 21, "male", "mca"],
+            ["rakesh", 27, "male", "b,tech"]
+        ];
         // document.write(ary[1]);
         // document.write(ary[1][2]); //its means  in 1 index of 2nd  value (inner-loop) output is female
         /*ary[1] is outer loop(sapna) of multidimensional arry 
         and ary[3] is inner loop(female) of multidimensional arry */
         // document.write("<table boder= '1px' cellspacing = '0'>");
-        // for (var a = 0; a < 4; a++) {
-        //     document.write("<tr>");
-        //     for (var b = 0; b < 4; b++) {
-        //         document.write("<td>" + ary[a][b] + "</td>");
-        //     }
-        //     document.write("</tr>");
-        // }
-        // document.write("</table>");
+        for (var a = 0; a < 4; a++) {
+            document.write("<tr>");
+            for (var b = 0; b < 4; b++) {
+                document.write(ary[a][b] + " ");
+            }
+            document.write("</tr>");
+        }
+        document.write("</table>");
 
         //     //-----array method new -----------------
 
