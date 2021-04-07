@@ -18,11 +18,11 @@
             ["aman", 21, "male", "mca"],
             ["rakesh", 27, "male", "b,tech"]
         ];
-        // document.write(ary[1]);
-        // document.write(ary[1][2]); //its means  in 1 index of 2nd  value (inner-loop) output is female
+        document.write(ary[1]);
+        document.write(ary[1][2]); //its means  in 1 index of 2nd  value (inner-loop) output is female
         /*ary[1] is outer loop(sapna) of multidimensional arry 
         and ary[3] is inner loop(female) of multidimensional arry */
-        // document.write("<table boder= '1px' cellspacing = '0'>");
+        document.write("<table boder= '1px' cellspacing = '0'>");
         for (var a = 0; a < 4; a++) {
             document.write("<tr>");
             for (var b = 0; b < 4; b++) {
@@ -35,25 +35,27 @@
         //     //-----array method new -----------------
 
 
-        //     var ary = new Array(3); //fix the value of this array
-        //     for (a = 0; a < ary.length; a++) { //ary.length is ary = (3) 
-        //         ary[a] = prompt("input some text :"); //input from user in prompt box
-        //     }
-        //     document.write(ary);
-        //
-        ////--------------example to print each string value with functions--------------
-        // function printArray(a ) {
-        //     var len = a.length,
-        //         i = 0;
-        //     if (len == 0)
-        //         console.log("Empty Array");
-        //     else {
-        //         do {
-        //             console.log(a[i]);
-        //         } while (++i < len);
-        //     }
-        // }
-        // printArray("rohit");
+        var ary = new Array(3); //fix the value of this array
+        for (a = 0; a < ary.length; a++) { //ary.length is ary = (3) 
+            ary[a] = prompt("input some text :"); //input from user in prompt box
+        }
+        document.write(ary);
+
+        //--------------example to print each string value with functions--------------
+        function printArray(a, b) {
+            var len = a.length,
+                var blen = b.length,
+                    i = 0;
+            if (len == 0 || blen == 0)
+                console.log("Empty Array");
+            else {
+                do {
+                    console.log(a[i]);
+                    console.log(b[i]);
+                } while (++i < len && ++i < blen);
+            }
+        }
+        printArray("rohit");
     </script>
 </body>
 

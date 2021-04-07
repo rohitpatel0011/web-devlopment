@@ -1,9 +1,9 @@
 //--------Arrays sort method--------
 
-// var a = ["rohit", "aman", "nikku", "34", "12", 111, "deepak"];
-// a.sort();
-//sorting alphabetical order arrays of string
-// console.log(a);
+var a = ["rohit", "aman", "nikku", "34", "12", 111, "deepak"];
+a.sort();
+sorting alphabetical order arrays of string
+console.log(a);
 //---------Arrays Reverse methods------- 
 var b = ["rohit", "aman", "nikku", "deepak", "zayan", "rahul", "khushi"];
 // b.reverse(); //reverse all arrays last to first
