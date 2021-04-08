@@ -15,6 +15,7 @@ var i = ["mango", "guava", "banana", "none"];
 /*
 i.splice(index, how many and no delete (0), "new value")
 */
-i.splice(2, 0, "potato", "true");
+i.splice(2, 0, "potato", "true"); //splice method modifying current arrays not new arrays
+
 
 console.log(i);
