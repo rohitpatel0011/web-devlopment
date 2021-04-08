@@ -1,7 +1,7 @@
 //------------arrays Concat method-----
 
 var x = ["sanjay", "aman", "rehman"];
-var y = x.concat("rahul", "naman"); //adding new value in new arrays
+var y = x.concat("rahul", "naman"); //adding new value i n new arrays
 console.log(y);
 //-------------
 
