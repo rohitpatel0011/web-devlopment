@@ -10,12 +10,14 @@
 
 <body>
     <script>
-        // function fullname(firstname, middlename, lastname, age) {
-        //     var a = firstname + " " + middlename + " " + lastname + " " + age;
-        //     return a;
-        // }
-        // var name = fullname("golu", "kumar", "patel", 46);
-        // document.write(name);
+        function fullname(firstname, middlename, lastname, age) {
+            var a = firstname + " " + middlename + " " + lastname + " " + age;
+            return a;
+        }
+        var name = fullname("golu", "kumar", "patel", 46);
+        document.write(name);
+
+        //---------------------------------
         function lessby20_others(x, y, z) {
             var a = (x >= 20 && (x < y || x < z)) ||
                 (y >= 20 && (y < x || y < z)) ||
