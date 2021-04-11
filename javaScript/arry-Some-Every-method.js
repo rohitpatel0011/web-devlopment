@@ -7,7 +7,7 @@ let b = ages.some(checkAdult);
 function checkAdult(age_) {
     return age_ >= 200;
     /*or (return x <= 18;)test value in an arrays
-     check every condition .
+     check 1st to last condition .
        if any one condition is true then output is true*/
 }
 console.log(b);
@@ -22,13 +22,3 @@ function checkAdult2(age1) {
        true then output is true*/
 }
 console.log(i);
-
-
-//-------------function arrays-----------------
-function adding(m, n) {
-    var x = m + n;
-    return x;
-}
-
-var add = adding(23, 45);
-console.log(add);
