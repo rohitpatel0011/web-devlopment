@@ -30,14 +30,14 @@ console.log(a);
 
 //---- -- -- -- --
 var arry = new Array(); //creating blank arrays to fill unlimited value 
-var d = new Array(2); //(4); fix the values of array 
-d[0] = 20; //fill value using index of array
-d[1] = "rohit";
-d[2] = "subham";
-d[3] = "name";
-d[4] = "others";
-for (var a = 0; a < ary.length; a++) {
-    console.log(ary[a]);
+var data = new Array(4); //(4); fix the values of array 
+data[0] = 20; //fill value using index of array
+data[1] = "rohit";
+data[2] = "subham";
+data[3] = "name";
+data[4] = "others";
+for (var b = 0; b < ary.length; b++) {
+    console.log(ary[b]);
 
 }
 
@@ -46,4 +46,4 @@ ary[4] = "rahul";
 ary[5] = "naman";
 
 console.log(ary);
-console.log(ary[a]);
+console.log(ary[1]);
