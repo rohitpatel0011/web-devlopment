@@ -29,17 +29,18 @@ console.log(a);
 
 
 //---- -- -- -- --
-var arry = new Array(); //creating blank arrays to fill unlimited value 
-var data = new Array(4); //(4); fix the values of array 
-data[0] = 20; //fill value using index of array
-data[1] = "rohit";
-data[2] = "subham";
-data[3] = "name";
-data[4] = "others";
+var fun = new Array(4); //(4); fix the values of array 
+fun[0] = 20; //fill value using index of array
+fun[1] = "rohit";
+fun[2] = "subham";
+fun[3] = "name";
+fun[4] = "others";
 for (var b = 0; b < ary.length; b++) {
     console.log(ary[b]);
 
 }
+//---------------------
+var arry = new Array(); //creating blank arrays to fill unlimited value 
 
 ary[1] = "mohit";
 ary[4] = "rahul";

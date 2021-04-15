@@ -18,6 +18,6 @@ let y = a.findIndex(adultAge_);
 /*( if one any one condition is true then print the index of these element)*/
 
 function adultAge_(age) {
-    return age >= 18;
+    return age >= 28;
 }
 console.log(y);

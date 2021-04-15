@@ -1,55 +1,43 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Do While Loop </title>
-</head>
-
-<body>
-    <h1>Do While Loop </h1>
-    <br>
-    <h4>the loop will execute the code block once , before checking if the condition is true and then it will repeat the loop as the condition is true</h4>
-    <br>
-    <p>
-        var a = 10;<br> do { document.write (a * 2 + " br tag")<br> a++//increment or decrement <br> }while (a
-        <=1 0); </p>
-            <script>
-                var a = 1
-                do {
-                    document.write(a * 2 + "<br>");
-                    a++;
-                } while (a <= 10);
-                var a = 10;
-                do {
-                    document.write("<h2>" + " hello Rohit" +
-                        "</h2>")
-                    a = a + 1;
-                } while (a <= 20); //this conditions is true 
-                /*this loop is run 11 times because do
-                loop run one time and then after checking while condition and run each tme */
-                //----------------------------
-                //------------------------------
-                var a = 10;
-                do {
-                    document.write("<h2>" + " hello Rohit" +
-                        "</h2>")
-                    a = a + 1;
-                } while (a <= 9); //this conditions is false
-                /*this loop run 1 time because while loop is false . when while loop is false then loop
-                is stop and out */
-                //---------------------------------
-                //---------------------------------
-                var i = 1;
-                do {
-                    document.write("<h1>" + i * 2 + "</h1>");
-                    /*printing table of two with the
-                                    help of do while loop*/
-                    i++;
-                } while (i <= 10);
-            </script>
+//------------------Array filter method---------------------- let age = [12, 24, 35, 18, 20]; let b = age.filter(adults) function adults(x) { return x >= 18; /*filter checking each and every element these conditions is true then output print all selected
+value*/ } console.log(b);
+<h4>the loop will execute the code block once , before checking if the condition is true and then it will repeat the loop as the condition is true</h4>
+<br>
+<p>
+    var a = 10;<br> do { document.write (a * 2 + " br tag")<br> a++//increment or decrement <br> }while (a =1 0); </p>
+<script>
+    var a = 1
+    do {
+        document.write(a * 2 + "<br>");
+        a++;
+    } while (a <= 10);
+    var a = 10;
+    do {
+        document.write("<h2>" + " hello Rohit" +
+            "</h2>")
+        a = a + 1;
+    } while (a <= 20); //this conditions is true 
+    /*this loop is run 11 times because do
+    loop run one time and then after checking while condition and run each tme */
+    //----------------------------
+    //------------------------------
+    var a = 10;
+    do {
+        document.write("<h2>" + " hello Rohit" +
+            "</h2>")
+        a = a + 1;
+    } while (a <= 9); //this conditions is false
+    /*this loop run 1 time because while loop is false . when while loop is false then loop
+    is stop and out */
+    //---------------------------------
+    //---------------------------------
+    var i = 1;
+    do {
+        document.write("<h1>" + i * 2 + "</h1>");
+        /*printing table of two with the
+                        help of do while loop*/
+        i++;
+    } while (i <= 10);
+</script>
 </body>
 
 </html>

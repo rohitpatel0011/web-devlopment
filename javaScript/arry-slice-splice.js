@@ -13,7 +13,7 @@ console.log(b);
 var i = ["mango", "guava", "banana", "none"];
 
 /*
-i.splice(index, how many and no delete (0), "new value")
+i.splice(index[2] , how many and (no delete (0)) , "new value")
 */
 i.splice(2, 0, "potato", "true"); //splice method modifying current arrays not new arrays
 

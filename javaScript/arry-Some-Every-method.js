@@ -12,13 +12,15 @@ function checkAdult(age_) {
 }
 console.log(b);
 
+
+
 //----------Arrys Every Method--------
 let ages_ = [12, 24, 35, 18, 20];
 let i = ages_.every(checkAdult2);
 
 function checkAdult2(age1) {
     return age1 <= 10;
-    /*if all condition is 
+    /*if all arrys in value are  condition is 
        true then output is true*/
 }
 console.log(i);
