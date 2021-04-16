@@ -6,7 +6,7 @@ console.log(arr[2]); //1 is a index of 20
 
 //--------------------------------
 var ary = [10, 29, 39, 49, 38];
-for (var i = 0; i <= 4; i++) { //i initialization is zero because index of arry starts with 0 and with 4
+for (var i = 0; i <= ary.length; i++) { //i initialization is zero because index of arry starts with 0 and with 4
     console.log(ary[i]);
 }
 
@@ -30,7 +30,7 @@ console.log(a);
 
 //---- -- -- -- --
 var fun = new Array(4); //(4); fix the values of array 
-fun[0] = 20; //fill value using index of array
+fun[0] = 20; //fill value using index[0] of array
 fun[1] = "rohit";
 fun[2] = "subham";
 fun[3] = "name";

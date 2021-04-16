@@ -108,3 +108,12 @@ let employee_4 = {
 }
 console.log(employee_4.salary());
 console.log(employee_4.living.city); //printing object in objects
+
+
+
+//----Object new method--------
+let employee_5 = new Object(); //create blank object 
+employee_5.firstName = "Rohit"; //adding properties and value in object
+employee_5.lastName = "Patel";
+employee_5.City = "Patna"
+console.log(employee_5.firstName + " " + employee_5.lastName);
