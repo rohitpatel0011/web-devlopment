@@ -59,7 +59,11 @@ let employee_3 = {
     salary: function() { //making function method in objects and return value
         return 30000;
     },
-    full_name: function() { //print tow properties for this function
+    full_name: function() {
+        /*if you print tow properties together in make function 
+               and return{this.}method*/
+
+
         return this.names + "/" + this.age;
         /*this means target employee_3 and 
                this.name means employee_3 in name and age*
@@ -116,4 +120,10 @@ let employee_5 = new Object(); //create blank object
 employee_5.firstName = "Rohit"; //adding properties and value in object
 employee_5.lastName = "Patel";
 employee_5.City = "Patna"
+
+
+//two way to print value in object these are same output
 console.log(employee_5.firstName + " " + employee_5.lastName);
+console.log(employee_5['firstName'] + " " + employee_5['lastName']);
+//----
+console.log(employee_5);
