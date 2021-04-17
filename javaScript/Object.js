@@ -62,8 +62,6 @@ let employee_3 = {
     full_name: function() {
         /*if you print tow properties together in make function 
                and return{this.}method*/
-
-
         return this.names + "/" + this.age;
         /*this means target employee_3 and 
                this.name means employee_3 in name and age*
@@ -110,8 +108,10 @@ let employee_4 = {
 
     },
 }
+
 console.log(employee_4.salary());
 console.log(employee_4.living.city); //printing object in objects
+console.log(employee_4.language[2]); //printing object in
 
 
 
