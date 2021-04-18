@@ -16,6 +16,7 @@ console.log(employee.country);
 
 
 //-------Replace Arrays in Object -------
+//--object in curly brackets{}
 let employee_1 = {
     names: "Rohit",
     age: 20,
@@ -111,7 +112,7 @@ let employee_4 = {
 
 console.log(employee_4.salary());
 console.log(employee_4.living.city); //printing object in objects
-console.log(employee_4.language[2]); //printing object in
+console.log(employee_4.language[2]); //printing object in arrys with index value
 
 
 
