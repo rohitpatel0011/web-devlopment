@@ -7,31 +7,32 @@
     <link rel="stylesheet" href="/paymentform1.css">
     <title>Payment form styling</title>
 </head>
-<form method="POST">
-    <div class="parentdiv">
-        <h1 class="heading">Payment Form</h1>
 
-        <h2>
-            User Information
-        </h2>
+<body>
+    <form method="POST">
+        <div class="parentdiv">
+            <h1 class="heading">Payment Form</h1>
 
-        <p>
-            Name : <input type="text" class="name" id="name" required placeholder="Enter your name">
-        </p>
+            <h2>
+                User Information
+            </h2>
 
-        <fieldset>
-            <legend>Gender</legend>
-            <input type="radio" name="gender" value="male"> Male
-            <input type="radio" name="gender" value="female"> Female
+            <p>
+                Name : <input type="text" class="name" id="name" required placeholder="Enter your name">
+            </p>
 
-        </fieldset>
-        <p>Address
+            <fieldset>
+                <legend>Gender</legend>
+                <input type="radio" name="gender" value="male"> Male
+                <input type="radio" name="gender" value="female"> Female
+
+            </fieldset>
+            <p>Address</p>
             <textarea name="address" id="useraddress" cols="70" rows="5">
-    
         </textarea>
             <p>Email :
-                <input type="email" name="useremail" required placeholder="example@gmail.com"></p>
-            <p>Pincode :<input type="pincode" name="userpasswd" required placeholder="123456"></p>
+                <input type="email" name="user_email" required placeholder="example@gmail.com"></p>
+            <p>Pin_code :<input type="pin_code" name="user_password" required placeholder="123456"></p>
             <h2>
                 Personal Information
             </h2>
@@ -44,22 +45,22 @@
                           
                 </select>
             </p>
+            <p>Card Number :
+                <input type="text" name="card_number" placeholder="1111-2222-3333-4444" required>
+            </p>
             <p>
-                Card Number :
-                <input type="text" name="cardnumber" placeholder="1111-2222-3333-4444" required </p>
-                <p>
-                    Expire Date :
-                    <input type="date" name="expiredate" required>
-                </p>
-                <p> cvv :<input type="password" name="cardcvv" placeholder="123" required>
+                Expire Date :
+                <input type="date" name="expire_date" required>
+            </p>
+            <p> cvv :
+                <input type="password" name="card_cvv" placeholder="123" required>
+            </p>
 
 
-</form>
-<input type="submit" value="Pay Now">
-</div>
 
-<body>
-
+            <input type="submit" value="Pay Now">
+        </div>
+    </form>
 </body>
 
 </html>
