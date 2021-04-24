@@ -171,25 +171,37 @@ console.log(string7_);
 //-----slice()function method-------
 
 let string8 = "this is javascript"
-let string8_ = string8.slice(5, 12);
+let string8___ = string8.slice(5);
 /*slice (5,12) means 5 to 12th ()not include 12th index[>12] index of character 
 and make new string*/
 let string8__ = string8.slice(-8);
-//(8) piche se 
-console.log(string8_);
+//(8)from behind count from opposite side
+let string8_ = string8.slice(5, 12);
+console.log(string8___);
 console.log(string8__);
+console.log(string8_);
 
 
 
 //-----substring()function method-------
 
 let string9 = "this is javascript"
-
+let string9_ = string9.substr(1, 3);
+/*(1 , 3) 1st index string and 3 character count in new string , same as slice method function*/
+console.log(string9_);
 
 
 //-----toString()function method-------
 
-let string_1 = "this is javascript"
+let string_1 = 23;
+let string_1_ = string_1.toString();
+//convert the vale in string
+console.log(string_1_ + 3);
+
+
 
 //-----valueOf()function method-------
 let string_2 = "this is javascript"
+let string_2_ = string_2.valueOf();
+//return value of whole string_2_
+console.log(string_2_);
