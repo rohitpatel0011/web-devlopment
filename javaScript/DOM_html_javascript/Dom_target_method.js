@@ -40,6 +40,9 @@
 // //*-----Dom Get and Set method--------------------
 
 
+
+// //*DOM GET METHOD------
+
 // //*------.innerText---------
 // //*-----.innerHTML----------
 // //*-----.getAttribute-------
@@ -51,11 +54,9 @@
 // console.log(ement);
 
 
-
 // //---innerHTML--------.
 // var e = document.getElementById("paragraph").innerHTML;
 // console.log(e);
-
 
 
 // //----getAttribute-----
@@ -75,11 +76,38 @@
 // var p = document.getElementById("parent").attributes;
 // console.log(p);
 
-var h = document.getElementById("parent").attributes[0];
-console.log(h);
+// var h = document.getElementById("parent").attributes[0];
+// //[0] index of attributes name 
+// console.log(h);
 
 // var k = document.getElementById("parent").attributes[1].value;
 // console.log(k);
 
 // var l = document.getElementById("parent").attributes[1].name;
 // console.log(l);
+
+
+
+
+
+// //*--------DOM Set  methods---------- 
+
+// //*innerText---
+// //*---innerHTML-----
+// //*---setAttribute
+// //*---attribute-
+// //*---removeAttribute---------------
+
+
+// //innerHTML-------
+// var id = document.getElementsByTagName("h1").innerHTML = " <h1>information</h1>";
+// console.log(id); //change the value of heading tag
+
+// //innerText-------
+// var d = document.getElementsByTagName("h1").innerText = " <h1>hello</h1>";
+// console.log(d); //innerText also print tag name 
+
+
+// //setAttribute-------
+// var fn = document.getElementById("header").setAttribute("class", abc);
+// console.log(fn);
