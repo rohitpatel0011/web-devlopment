@@ -44,18 +44,18 @@
         //--------------example to print each string value with functions--------------
         function printArray(a, b) {
             var len = a.length,
-                var blen = b.length,
+                var _len = b.length,
                     i = 0;
-            if (len == 0 || blen == 0)
+            if (len == 0 || _len == 0)
                 console.log("Empty Array");
             else {
                 do {
                     console.log(a[i]);
                     console.log(b[i]);
-                } while (++i < len && ++i < blen);
+                } while (++i < len && ++i < _len);
             }
         }
-        printArray("rohit");
+        printArray("rohit", "patel");
     </script>
 </body>
 
