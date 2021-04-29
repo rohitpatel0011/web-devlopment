@@ -30,16 +30,22 @@
         p.setAttribute('title', 'my_title')
             /*add new attribute*/
         console.log(p);
+
+
+
+
         //-----Styling with set attribute
         // //------wrong method
-        // p.setAttribute('style', 'background-color:red;');//replace all css properties 
+        p.setAttribute('style', 'background-color:red;'); //replace all css properties 
         //--right method
-        // p.style.backgroundColor = 'red';
+        p.style.backgroundColor = 'red';
         p.style.fontStyle = 'italic';
         //modified style by this method
+        p.setAttribute('style', 'font-weight:20px;');
 
         //------removeAttribute------
         // p.removeAttribute('style');
+        //removing attribute in tag
     </script>
 </body>
 
