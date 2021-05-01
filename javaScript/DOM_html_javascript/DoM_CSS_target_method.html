@@ -7,15 +7,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DOM css javascript</title>
     <style>
-
+        .xyz {
+            background-color: yellow;
+        }
     </style>
 
 </head>
 
 <body>
-    <h1 id="page-header" style="    background-color: red;
+    <div class="banner">
+        <h1 id="page-header" style="    background-color: red;
             height: 50px;">this is first heading of the page</h1>
-    <h1 class="second-page-header" style=" background-color:purple">this is second heading of the page</h1>
+        <h1 id="second-page-header" style=" background-color:purple">this is second heading of the page</h1>
+        <h1 class="third-page-header">this is third heading of the page</h1>
+    </div>
     <script type="text/javascript">
         //===========Style method=======
         //========modified style height 
@@ -28,7 +33,11 @@
         // console.log(element);
 
         //===========ClassName method===============
-        var element = document.querySelector(".second-page-header").secondPageHeader.backgroundColor;
+        //Adding new style className to  
+
+        var element = document.querySelector(".third-page-header").className = "xyz";
+        //Adding new style attribute
+        // element = document.querySelector("#third-page-header").className;
         console.log(element);
     </script>
 </body>
