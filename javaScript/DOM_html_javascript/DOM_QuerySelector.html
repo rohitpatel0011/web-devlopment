@@ -7,6 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Get Dom method
     </title>
+    <style>
+        .second {
+            background-color: blue;
+        }
+        
+        .container {
+            background-color: brown;
+        }
+    </style>
+
 </head>
 <style>
 
@@ -16,7 +26,7 @@
 <body>
     <div id="container" class="first">
         <div class="header">
-            <h1>Rohit Patel</h1>
+            <h1 id="heading">Rohit Patel</h1>
             <h1>Golu Kumar</h1>
         </div>
     </div>
@@ -30,11 +40,11 @@
         </ul>
     </div>
     <script>
-        // var p = document.getElementById('container').setAttribute; //getting the element by id
-        // // console.log(p);
-        // p.setAttribute('class', 'second');
-        // // p.className = 'second';//both are same o
-        // //replace value and class name
+        // var ele = document.querySelector("heading").setAttribute("style", "background-color:red"); //getting the element by id
+        // console.log(p);
+
+        // p.className = 'second';//both are same o
+        // replace value and class name
         // var s = p.getAttribute('id');
         // console.log(s);
         // console.log(p);
@@ -43,14 +53,19 @@
         // console.log(p);
 
 
+
         //-----Styling with set attribute
-        // //------wrong method
-        // p.setAttribute('style', 'background-color:red;'); //replace all css properties 
+        var p = document.getElementById('container').setAttribute; //getting the element by id
+        //------wrong method
+        p.setAttribute('style', 'background-color:red;'); //replace all css properties 
         // //--right method
         // p.style.backgroundColor = 'red';
         // p.style.fontStyle = 'italic';
-        //modified style by this method
+        /* modified style by this method*/
         // p.setAttribute('style', 'font-weight:20px;');
+
+
+
 
         //------removeAttribute------
         // p.removeAttribute('style');
@@ -58,10 +73,14 @@
         // p.querySelectorAll("ul").innerHTML;
         // console.log(p);
         // 
+
+
         //*Query selector--
-        // var result;
-        // result = document.querySelector("#heading").innerHTML = "<h1>Hello</h1>"; //querySelector target first node 
-        // console.log(result);
+        var result;
+        result = document.querySelector("#heading").innerHTML = "<h1>Hello</h1>"; //querySelector target first node 
+        console.log(result);
+
+
 
         // Query selectorAll -----------------
         // var element;
@@ -69,10 +88,12 @@
         // //or ("ul").innerHTML;
         // console.log(element);
 
+
+
         //-----------
         //modify dom   querySelectorAll with index
-        var p = document.querySelectorAll(".header h1")[0].innerHTML = "Hello";
-        console.log(p);
+        // var p = document.querySelectorAll(".header h1")[0].innerHTML = "Hello";
+        // console.log(p);
     </script>
 </body>
 
