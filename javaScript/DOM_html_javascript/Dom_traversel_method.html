@@ -7,6 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dom traversal method</title>
     <style>
+        * {
+            text-transform: uppercase;
+        }
+        
         #outer {
             background: #ac7030;
             height: 200px;
@@ -66,20 +70,96 @@
         <h2>nextElementSibling</h2>
         <h2>nextSibling</h2>
         <h2>previousSibling</h2>
-        <h2>previousSibling</h2>
+        <h2>previousElementSibling</h2>
+
     </div>
     <script>
         /*======parentNode=========*/
 
         var element = document.getElementById("aa").parentNode.style.backgroundColor = "green";
-        console.log(element);
+        console.log(element); //
 
 
         /*=====parentElement========*/
 
-        // var a = document.getElementById("aa").parentElement.style.backgroundColor = "yellow";
-        // console.log(a);
+        var a = document.getElementById("aa").parentElement.style.backgroundColor = "yellow";
+        console.log(a);
+
+
+
+
+        /*=====Children===========*/
+
+        var a = document.getElementById("inner").children.style.backgroundColor = "red";
+        console.log(a);
+        var b = document.getElementById("inner").children[1].style.backgroundColor = "red";
+
+
+
+
+        /*=====childNode=======*/
+
+        var c = document.getElementById("inner").childNodes;
+        var c = document.getElementById("inner").childNodes.style.backgroundColor = "red";
+        console.log(c);
+
+
+
+        /*===========firstChild========*/
+
+        var d = document.getElementById("inner").firstChild;
+        var d = document.getElementById("inner").firstChild.style.backgroundColor = "red";
+        console.log(d);
+
+
+
+        /*===========firstElementChild=====*/
+
+        var e = document.getElementById("inner").firstElementChild.style.backgroundColor = "red";
+        console.log(e);
+
+
+
+        /*===========lastChild========*/
+
+        var f = document.getElementById("inner").lastChild.style.backgroundColor = "blue";
+        console.log(f);
+
+
+
+        /*=====lastElementChild=======*/
+
+        var g = document.getElementById("inner").lastElementChild.style.backgroundColor = "red";
+        console.log(g);
+
+
+
+        /*=====nextElementSiblings===*/
+
+        var h = document.getElementById("bb").nextElementSibling.style.backgroundColor = "red";
+        console.log(h);
+
+
+        /*=====nextSibling===*/
+
+        var i = document.getElementById("dd").nextSibling;
+        console.log(i); //count space between them
+
+
+        /*====previousSibling=====*/
+
+        var j = document.getElementById("aa").previousSibling;
+        console.log(j);
+
+
+
+        /*======previousElementSibling=====*/
+
+        var h = document.getElementById("aa").previousElementSibling;
+        console.log(h);
     </script>
+
+
 </body>
 
 </html>
