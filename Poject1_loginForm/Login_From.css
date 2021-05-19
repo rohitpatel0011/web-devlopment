@@ -1,0 +1,57 @@
+   * {
+       margin: 0px;
+       padding: 0px;
+       box-sizing: border-box;
+   }
+   
+   body {
+       margin: 0px;
+       padding: 0px;
+       background-image: url("https://papers.ch/wp-content/uploads/newbackground.jpg");
+       background-size: cover;
+       height: 100vh;
+       font-family: sans-serif;
+       text-transform: capitalize;
+   }
+   
+   nav {
+       background-color: black;
+   }
+   
+   nav ul li a {
+       color: white;
+       padding: 10px;
+       display: inline;
+       background-color: black;
+   }
+   
+   a:hover {
+       background-color: #fdc406;
+   }
+   
+   li {
+       display: inline;
+       background-color: black;
+       height: 50px;
+   }
+   
+   a {
+       text-decoration: none;
+       color: white;
+   }
+   
+   .box {
+       position: relative;
+       width: 385px;
+       height: 430px;
+       background: #b1c5d094;
+       margin: 70px auto;
+       padding: 40px;
+       border-radius: 20px;
+       box-shadow: 0 35px 50px #0a1516c9;
+   }
+   
+   input {
+       height: 30px;
+       width: 200px;
+   }
